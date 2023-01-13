@@ -10,8 +10,10 @@
 /* common prpperty */
 body {
   background-color: #ffffff;
-  margin: 50px;
   font-family: Poppins;
+}
+.common-scal{
+    margin: 50px;
 }
 li {
   list-style: none;
@@ -37,6 +39,7 @@ nav ul li a {
   margin: 30px;
   list-style: none;
   margin-bottom: 80px;
+  font-weight: 600;
 }
 /* header banner design */
 .header-banner {
@@ -133,11 +136,14 @@ nav ul li a {
 .see-more a {
   text-decoration: none;
   color: #e02c6d;
+  
 }
 /* future products at one place section design */
 .future-products{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 .future-titel{
     font-size: 38px;
@@ -150,4 +156,28 @@ nav ul li a {
     font-weight: 700;
     color:#6C6C6C;
     margin-bottom: 36px;
+}
+/* footer part design start  */
+.footer{
+    background-color: #0A0826;
+    
+}
+.footer-container{
+    text-align: center;
+   padding-top: 10px;
+}
+.footer-tag{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 50px;
+}
+.footer-description{
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 15px;
+    color: #D9DBE1;
+    
+    
 }
