@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/* poppins google font */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common prpperty */
+body{
+    background-color:#FFFFFF ;
+    margin: 50px;
+}
+li{
+    list-style: none;
+}
+i{
+    margin: 10px;
+}
+/* parents class of header name and nav */
+.container{
+    display: flex;
+    justify-content: space-between;
+      
+}
+.company-name{
+    margin-bottom: 145px;
+}
+
+
+/* nav style started */
+nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    line-height: 24px;
+    margin:30px;
+    list-style: none; 
+    margin-bottom: 80px;
+}
+/* header banner design */
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+}
+.header-titel{
+    font-size: 52px;   
+    color: #3A3A3A;
+}
+.banner-descricption{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #3A3A3A
+}
+.primary-btn{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius: 40px;
+    font-weight: 600;
+     padding: 10px 24px;
+}
+.img{
+    background-image: url("../img/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 70px;
+}
+.img img{
+    width: 440px;
+    height: 414px;  
+}
+
+/* sponsers section design*/
+.sponsers-brand{
+    display: flex;
+    justify-content: center;
+    
+}
+.sponsers-brand img{
+    margin: 25px;
+    margin-bottom: 100px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+
