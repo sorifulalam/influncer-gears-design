@@ -1,133 +1,136 @@
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 /* poppins google font */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 /* common prpperty */
-body{
-    background-color:#FFFFFF ;
-    margin: 50px;
-    font-family: Poppins;
+body {
+  background-color: #ffffff;
+  margin: 50px;
+  font-family: Poppins;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-i{
-    margin: 10px;
+i {
+  margin: 10px;
 }
 /* parents class of header name and nav */
-.container{
-    display: flex;
-    justify-content: space-between;
-      
+.container {
+  display: flex;
+  justify-content: space-between;
 }
-.company-name{
-    margin-bottom: 145px;
+.company-name {
+  margin-bottom: 145px;
 }
-
 
 /* nav style started */
 nav ul li a {
-    text-decoration: none;
-    color: #3A3A3A;
-    font-size: 16px;
-    line-height: 24px;
-    margin:30px;
-    list-style: none; 
-    margin-bottom: 80px;
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px;
+  list-style: none;
+  margin-bottom: 80px;
 }
 /* header banner design */
-.header-banner{
-    display: flex;
-    justify-content: space-between;
+.header-banner {
+  display: flex;
+  justify-content: space-between;
 }
-.header-titel{
-    font-size: 52px;   
-    color: #3A3A3A;
+.header-titel {
+  font-size: 52px;
+  color: #3a3a3a;
 }
-.banner-descricption{
-    margin-top: 16px;
-    margin-bottom: 16px;
-    color: #3A3A3A
+.banner-descricption {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #3a3a3a;
 }
-.primary-btn{
-    background-color: #E02C6D;
-    color: #FFFFFF;
-    border-radius: 40px;
-    font-weight: 600;
-     padding: 10px 24px;
+.primary-btn {
+  background-color: #e02c6d;
+  color: #ffffff;
+  border-radius: 40px;
+  font-weight: 600;
+  padding: 10px 24px;
 }
-.img{
-    background-image: url("../img/Circle\ design.svg");
-    background-repeat: no-repeat;
-    background-position: bottom right, left;
-    margin-bottom: 70px;
+.img {
+  background-image: url("../img/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  margin-bottom: 70px;
 }
-.img img{
-    width: 440px;
-    height: 414px;  
+.img img {
+  width: 440px;
+  height: 414px;
 }
 
 /* sponsers section design*/
-.sponsers-brand{
-    display: flex;
-    justify-content: center;
-    
+.sponsers-brand {
+  display: flex;
+  justify-content: center;
 }
-.sponsers-brand img{
-    margin: 25px;
-    margin-bottom: 100px;
-    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+.sponsers-brand img {
+  margin: 25px;
+  margin-bottom: 100px;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* populer section design  */
-.populer-header{
-   text-align: center;
-   font-size: 28px;
-   font-weight: 600;
-   color: #3A3A3A;
-   margin-bottom: 30px;
+.populer-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 30px;
 }
-.collections{
-    width: 330px; 
-     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1); 
-     padding: 15px;
-     margin-bottom:30px;
-    
+.collections {
+  width: 330px;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 30px;
 }
-.collections img{
-    width: 300px;
-    height: 256px;
-    
+.collections img {
+  width: 300px;
+  height: 256px;
 }
-.collections-name{
-    font-size: 28px;
-    color: #18191F;
-    margin-bottom: 6px;
-    margin-top: 16px;
+.collections-name {
+  font-size: 28px;
+  color: #18191f;
+  margin-bottom: 6px;
+  margin-top: 16px;
 }
-.collections-price{
-    font-size: 24px;
+.collections-price {
+  font-size: 24px;
 }
-.fields{
-    font-size: 10px;
-    color:#FB8200;
+.fields {
+  font-size: 10px;
+  color: #fb8200;
 }
-.icon{ 
-   margin-bottom: 6px;
+.icon {
+  margin-bottom: 6px;
 }
-.collections-description{
-    font-size: 14px;
-    color: #787885;
-   
+.collections-description {
+  font-size: 14px;
+  color: #787885;
 }
-.populer-collections{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    
+.populer-collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.see-more {
+  text-align: end;
+  color: #e02c6d;
+  font-size: 16px;
+  font-weight: 700;
+}
+.see-more a {
+  text-decoration: none;
+  color: #e02c6d;
 }
