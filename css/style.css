@@ -134,3 +134,20 @@ nav ul li a {
   text-decoration: none;
   color: #e02c6d;
 }
+/* future products at one place section design */
+.future-products{
+    display: flex;
+    justify-content: space-around;
+}
+.future-titel{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 26px;
+}
+.future-description{
+    font-size: 16px;
+    font-weight: 700;
+    color:#6C6C6C;
+    margin-bottom: 36px;
+}
